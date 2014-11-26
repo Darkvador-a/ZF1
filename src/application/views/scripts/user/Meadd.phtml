@@ -1,0 +1,40 @@
+<style>
+div#welcome {
+	background-image:
+		url(http://i25.tinypic.com/2lvh5ad.jpg);
+	width: 600px;
+	/*height: 400px;*/
+	border: 2px solid #444444;
+	text-align: center;
+}
+
+</style>
+<div id="welcome">
+	<h4>Ajouter un nouveau utilisateur</h4>
+	<form class="form-horizontal" method="post">
+		<fieldset>			
+			<div class="control-group" style="color: #000;">
+				<!-- Text input-->
+				<label class="control-label" for="textinput">Username</label>
+				<div class="controls">
+					<input id="username" name="username" type="text" placeholder="Jhon"
+						class="input-xlarge">
+				</div>
+				<!-- Password input-->
+				<label class="control-label" for="passwordinput">Password </label>
+				<div class="controls">
+					<input id="password" name="password" type="password"
+						class="input-xlarge">
+				</div>
+			</div>
+			<!-- Button -->
+			<div class="control-group">
+				<div class="controls">
+					<button id="submit" name="submit" class="btn btn-primary">Submit</button>
+				</div>
+			</div>
+		</fieldset>
+	</form>
+
+</div>
+
